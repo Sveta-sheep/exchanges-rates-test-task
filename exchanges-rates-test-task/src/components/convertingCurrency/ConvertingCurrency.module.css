@@ -1,0 +1,53 @@
+.converterWrapper {
+    background-color: royalblue;
+    padding: 64px;
+    border-radius: 20px;
+    box-shadow: -5px 5px 5px grey;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.converterExample {
+    font-family: monospace;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.converterInput {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    color: royalblue;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: 600;
+    margin: 4px;
+    background-color: rgb(218, 209, 209);
+}
+
+.converterButton {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: black;
+    color:rgb(218, 209, 209);
+}
+
+.error {
+    color: rgb(184, 9, 9);
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.errorInput {
+    border:rgb(184, 9, 9) 2px solid;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(218, 209, 209);
+}

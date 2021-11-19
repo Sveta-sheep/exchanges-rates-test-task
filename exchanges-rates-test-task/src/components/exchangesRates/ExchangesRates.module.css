@@ -1,0 +1,21 @@
+.ratesWrapper {
+    background-color: royalblue;
+    padding: 64px;
+    border-radius: 20px;
+    box-shadow: -5px 5px 5px grey;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.baseCurrency {
+    font-family: monospace;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.ratesList {
+    list-style-type: square;
+}

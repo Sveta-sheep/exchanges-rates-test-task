@@ -1,0 +1,31 @@
+.nav {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px;
+}
+
+.navItem a {
+    text-decoration: none;
+    color: rgb(12, 34, 158);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    transition: all .4s;
+}
+
+.navItem a:hover {
+    letter-spacing: .7px;
+    text-decoration: none;
+    transform: scale(1, 1);
+    color: rgb(39, 42, 68);
+    display: block;
+    font-weight: 600;
+}
+
+.navItem a:active {
+    color: rgb(17, 15, 15);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
